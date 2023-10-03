@@ -21,6 +21,12 @@
                     <x-nav-link href="{{route('vehiculo')}}" :active="request()->routeIs('vehiculo')">
                         Vehiculos
                     </x-nav-link>
+                    <x-nav-link href="{{route('mantenimiento')}}" :active="request()->routeIs('mantenimiento')">
+                        Mantenimientos
+                    </x-nav-link>
+                    <x-nav-link href="{{route('pieza')}}" :active="request()->routeIs('pieza')">
+                        Piezas
+                    </x-nav-link>
                 </div>
             </div>
 

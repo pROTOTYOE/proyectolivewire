@@ -37,4 +37,8 @@ Route::put('destino/update/{$lugar}', [\App\Http\Controllers\Places::class, 'upd
 
 //Vehiculo
 Route::get('vehiculo', \App\Livewire\Vehiculo::class)->name('vehiculo');
+//Mantenimientos
+Route::get('mantenimiento', \App\Livewire\Mantenimiento::class)->name('mantenimiento');
+//Pieza
+Route::get('pieza', \App\Livewire\Pieza::class)->name('pieza');
 
